@@ -1,0 +1,17 @@
+.cufon-settings-row {
+  margin-bottom: .75em;
+  border-bottom: 1px solid #ccc;
+}
+.cufon-settings-row .cufon-selector {
+  width: 40%;
+  float: left;
+}
+.cufon-settings-row .cufon-options {
+  width: 35%;
+  float: left;
+}
+
+.cufon-settings-row .cufon-font-family label, 
+.cufon-settings-row .cufon-font-family select {
+  display: inline;
+}

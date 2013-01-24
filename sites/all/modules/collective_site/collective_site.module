@@ -1,0 +1,17 @@
+<?php
+
+function collective_site_menu(){
+
+  $items['home_redirect'] = array(
+    'type' => MENU_CALLBACK,
+    'title' => 'Homepage Redirect',
+    'description' => 'Automatic redirect to www.collectivehomepage.com',
+    'page callback' => '_collective_site_redirect',
+    'access callback' => TRUE,
+  );	
+  return $items;	
+}
+
+function _collective_site_redirect(){
+	drupal_goto("http://www.collectivehomepage.com");
+}

@@ -1,0 +1,12 @@
+name = Cufon
+package = User interface
+description = Use the Cufon Javascript library to replace text with fancy fonts, rendered with with Canvas and VML.
+core = 6.x
+
+
+; Information added by drupal.org packaging script on 2012-08-22
+version = "6.x-1.0-rc1"
+core = "6.x"
+project = "cufon"
+datestamp = "1345648353"
+

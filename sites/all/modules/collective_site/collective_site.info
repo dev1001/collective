@@ -1,0 +1,4 @@
+name = Collective Site
+description = A description of what your module does.
+package = Collective
+core = 6.x

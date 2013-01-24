@@ -1,0 +1,29 @@
+name = Collective Two
+description = Theme for the Collective site, built by Digital Rhino
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = css/reset-min.css
+stylesheets[all][] = css/fonts-min.css
+stylesheets[all][] = css/grids-min.css
+stylesheets[all][] = css/main.css
+conditional-stylesheets[if IE][all][] = css/ie.css
+conditional-stylesheets[if IE 6][all][] = css/ie6.css
+conditional-stylesheets[if IE 7][all][] = css/ie7.css
+
+
+scripts[] = js/swfobject.js
+scripts[] = js/sifr.js
+scripts[] = js/collective.js
+scripts[] = js/logoslideshow.js
+
+
+
+regions[subnav] = Sub navigation
+regions[header] = Header
+regions[footer] = Footer
+regions[content] = Content
+
+; features[] = to define features
+
+; Panels layouts. You can place multiple layouts under the "layouts" folder.
+plugins[panels][layouts] = layouts

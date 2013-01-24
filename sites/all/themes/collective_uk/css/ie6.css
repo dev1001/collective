@@ -1,0 +1,9 @@
+#header .logo {text-align: left;}
+#content.insight .divider {width: 93%; margin-top: -10px;}
+#footer .footerSitemap {height: 1%;}
+#subnav {height: 1%;}
+
+.cMask, #splash_main ul li { width: 800px; margin-bottom: -3px; }
+.cMask { position: relative; }
+#splash_main ul { line-height: 0px; }
+.panelImg { width: 400px; }

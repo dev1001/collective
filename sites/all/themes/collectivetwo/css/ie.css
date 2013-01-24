@@ -1,0 +1,11 @@
+.views_slideshow_singleframe_slide {
+  background-color: transparent !important;
+}
+
+.front .view-topitem-list {
+ margin-top: -345px;
+}
+
+#footer-wrapper {
+  padding-top: 20px;
+}
