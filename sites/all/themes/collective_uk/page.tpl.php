@@ -101,7 +101,7 @@ global $base_url;
 
 </script>
 <script type="text/javascript">
-			Cufon.replace('h1');	
+			Cufon.replace('h2');	
 </script>
 </head>
 <body class="<?php print $body_classes; ?>">
